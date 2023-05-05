@@ -1,3 +1,5 @@
+library(ggplot2)
+
 #Upload of the data of the chlorophyll content in different algae types over observations in 2016-2023
 bbe_all <- read.delim("data/BBE_all.txt")
 

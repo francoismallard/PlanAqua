@@ -26,6 +26,9 @@ scoring_mean$wtr_level = as.numeric(temp)
 
 scoring_mean$lake <- as.numeric(scoring_mean$lake)
 
+scoring_mean_lake <- subset(scoring_mean, lake<= 17)#mask 
+
+scoring_mean_lake<- merge(scoring_mean_lake, unique(scoring[, c("lake", "column", "raw")]))
 
 
 #### Ajout de la colonne water level au daily_std

@@ -87,3 +87,4 @@ fisher.test(as.factor(scoring_mean_lake$nut),scoring_mean_lake$wtr_level)
 fisher.test(as.factor(scoring_mean_lake$nut),scoring_mean_lake$frog)
 
 fisher.test(as.factor(scoring_mean_lake$raw),scoring_mean_lake$other_biol_waste)
+

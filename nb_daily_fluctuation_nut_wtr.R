@@ -3,8 +3,8 @@ library(ggplot2)
 
 #### Importation des données du scoring et les fluctuations journalières 
 
-daily_std <- read.table(file = "output_files/daily_fluctuations_WTR.txt", header = TRUE, sep= "\t")
-scoring <- read.table(file = "data/scoring_03052023.txt", header = TRUE, sep="\t")
+daily_std <- read.table(file = "Data/daily_fluctuations_WTR.txt", header = TRUE, sep= "\t")
+scoring <- read.table(file = "Data/scoring_03052023.txt", header = TRUE, sep="\t")
 scoring <- subset(scoring, obs!="MR")
 
 #### Moyenne pour chaque paramètres et tableau avec les moyennes 
