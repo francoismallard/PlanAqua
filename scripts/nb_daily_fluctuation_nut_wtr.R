@@ -42,3 +42,4 @@ modele_lineaire_interactions <- lm(daily_std$daily_sd ~ daily_std$wtr*daily_std$
 
 modele_lineaire_fond  <- lm(daily_sd ~  algae + nut,data=subset(daily_std,!is_surface))
 summary(modele_lineaire_fond)
+

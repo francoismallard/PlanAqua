@@ -4,7 +4,7 @@ library(ggplot2)
 #### Importation des données du scoring et les fluctuations journalières 
 
 daily_std <- read.table(file = "output_files/daily_fluctuations_WTR.txt", header = TRUE, sep= "\t")
-scoring <- read.table(file = "output_files/scoring_03052023.txt", header = TRUE, sep="\t")
+scoring <- read.table(file = "data/scoring_03052023.txt", header = TRUE, sep="\t")
 scoring <- subset(scoring, obs!="MR")
 
 #### Moyenne pour chaque paramètres et tableau avec les moyennes 
@@ -42,3 +42,4 @@ modele_lineaire_interactions <- lm(daily_std$daily_sd ~ daily_std$wtr*daily_std$
 
 modele_lineaire_fond  <- lm(daily_sd ~  algae + nut,data=subset(daily_std,!is_surface))
 summary(modele_lineaire_fond)
+
