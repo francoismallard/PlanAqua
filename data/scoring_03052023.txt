@@ -1,0 +1,141 @@
+lake	type	obs	column	raw	wtr_level	algae	other_biol_waste	fish	frog	filamentous
+1	lake	FM	1	1	4	0	1	1	1	
+2	lake	FM	1	2	4	0	1	1	0	
+3	lake	FM	1	3	4	0	1	0	0	
+4	lake	FM	1	4	4	1	1	0	0	
+5	lake	FM	2	1	2	0	1	0	0	
+6	lake	FM	2	2	4	1	1	0	1	
+7	lake	FM	2	3	4	1	1	1	0	
+8	lake	FM	2	4	3	1	1	1	1	
+9	lake	FM	3	1	2	1	1	0		
+10	lake	FM	3	2	2	1	1	0	1	
+11	lake	FM	3	3	2	0	1	1	1	
+12	lake	FM	3	4	2	0	1	1	0	
+13	lake	FM	4	1	2	0	1	1	0	
+14	lake	FM	4	2	2	0	1	1	1	
+15	lake	FM	4	3	3	0	1	0	0	
+16	lake	FM	4	4	3	0	1	0	0	
+102	canal	FM	1	NA		0			1	
+203	canal	FM	1	NA		0			0	
+304	canal	FM	1	NA		0			0	
+506	canal	FM	2	NA		1			0	
+607	canal	FM	2	NA		1			0	
+708	canal	FM	2	NA		1			0	
+9010	canal	FM	3	NA		1			1	
+1011	canal	FM	3	NA		1			1	
+1112	canal	FM	3	NA		1			0	
+1314	canal	FM	4	NA		0			0	
+1415	canal	FM	4	NA		1			0	
+1516	canal	FM	4	NA		0			0	
+1	lake	IO	1	1	5	0	0	1	0	
+2	lake	IO	1	2	4	0	1	1	0	
+3	lake	IO	1	3	3	0	1	0	0	
+4	lake	IO	1	4	3	1	1	0	0	1
+5	lake	IO	2	1	2	0	1	0	0	
+6	lake	IO	2	2	3	1	1	1	1	
+7	lake	IO	2	3	4	0	1	1	0	
+8	lake	IO	2	4	3	1	1	1	0	1
+9	lake	IO	3	1	2	1	1	1	0	1
+10	lake	IO	3	2	2	1	1	0	0	
+11	lake	IO	3	3	1	0	1	0	0	
+12	lake	IO	3	4	1	0	1	1	0	
+13	lake	IO	4	1	2	0	1	1	0	
+14	lake	IO	4	2	4	0	1	1	0	
+15	lake	IO	4	3	4	0	0	1	0	
+16	lake	IO	4	4	2	0	1	1	0	
+102	canal	IO	1	NA		0	1	0	0	
+203	canal	IO	1	NA		1	1	0	0	
+304	canal	IO	1	NA		0	0	0	0	
+506	canal	IO	2	NA		1	1	0	1	
+607	canal	IO	2	NA		1	0	0	1	
+708	canal	IO	2	NA		1	1	0	1	
+9010	canal	IO	3	NA		1	1	0	1	1
+1011	canal	IO	3	NA		1	1	0	0	1
+1112	canal	IO	3	NA		1	1	0	0	
+1314	canal	IO	4	NA		1	1	0	1	
+1415	canal	IO	4	NA		1	1	0	0	
+1516	canal	IO	4	NA		1	1	0	1	
+1	lake	MR	1	1	4	0		1	1	
+2	lake	MR	1	2	4	0		1	1	
+3	lake	MR	1	3	4	0		1	0	
+4	lake	MR	1	4	4	1		1	0	
+5	lake	MR	2	1	3	0		1	1	
+6	lake	MR	2	2	4	1		0	1	
+7	lake	MR	2	3	4	0		1	1	
+8	lake	MR	2	4	4	1		1	1	
+9	lake	MR	3	1	3	1		1	0	
+10	lake	MR	3	2	3	1		1	0	
+11	lake	MR	3	3	3	1		1	0	
+12	lake	MR	3	4	3	1		1	1	
+13	lake	MR	4	1	3	0		1	0	
+14	lake	MR	4	2	4	0		1	1	
+15	lake	MR	4	3	4	0		0	1	
+16	lake	MR	4	4	3	0		0	0	
+102	canal	MR	1	NA		0			1	
+203	canal	MR	1	NA		0			1	
+304	canal	MR	1	NA		0			1	
+506	canal	MR	2	NA		1			0	
+607	canal	MR	2	NA		1			0	
+708	canal	MR	2	NA		1			0	
+9010	canal	MR	3	NA						
+1011	canal	MR	3	NA		1			1	
+1112	canal	MR	3	NA		1			1	
+1314	canal	MR	4	NA		0			0	
+1415	canal	MR	4	NA		1			1	
+1516	canal	MR	4	NA		1			0	
+1	lake	LC	1	1	4	0	0	1	0	
+2	lake	LC	1	2	4	0	0	1	0	
+3	lake	LC	1	3	4	1	0	0	0	
+4	lake	LC	1	4	4	1	0	0	0	
+5	lake	LC	2	1	2	0	1	0	0	
+6	lake	LC	2	2	4	1	1	0	1	
+7	lake	LC	2	3	4	1	0	1	1	
+8	lake	LC	2	4	5	1	0	1	0	
+9	lake	LC	3	1	2	1	0	0	0	
+10	lake	LC	3	2	2	1	0	0	0	
+11	lake	LC	3	3	2	0	1	1	0	
+12	lake	LC	3	4	2	1	1	1	0	
+13	lake	LC	4	1	2	0	1	1	0	
+14	lake	LC	4	2	3	0	0	1	0	
+15	lake	LC	4	3	4	0	1	0	0	
+16	lake	LC	4	4	4	0	1	0	0	
+102	canal	LC	1	NA		0			1	
+203	canal	LC	1	NA		0			0	
+304	canal	LC	1	NA		0			0	
+506	canal	LC	2	NA		1			1	
+607	canal	LC	2	NA		1			0	
+708	canal	LC	2	NA		1			0	
+9010	canal	LC	3	NA		1			1	
+1011	canal	LC	3	NA		0			1	
+1112	canal	LC	3	NA		1			0	
+1314	canal	LC	4	NA		0			1	
+1415	canal	LC	4	NA		1			0	
+1516	canal	LC	4	NA		1			0	
+1	lake	NB	1	1	4	0	1	1	0	
+2	lake	NB	1	2	3	0	1	1	0	
+3	lake	NB	1	3	4	0	1	0	0	
+4	lake	NB	1	4	4	1	0	1	1	
+5	lake	NB	2	1	3	0	1	0	1	
+6	lake	NB	2	2	4	1	1	0	1	
+7	lake	NB	2	3	4	0	1	1	1	
+8	lake	NB	2	4	3	1	1	1	1	
+9	lake	NB	3	1	2	1	1	0	0	
+10	lake	NB	3	2	2	1	1	0	0	
+11	lake	NB	3	3	2	1	1	1	1	
+12	lake	NB	3	4	2	1	1	1	0	
+13	lake	NB	4	1	3	0	1	1	0	
+14	lake	NB	4	2	3	0	0	1	1	
+15	lake	NB	4	3	4	0	0	0	0	
+16	lake	NB	4	4	3	0	1	0	1	
+102	canal	NB	1	NA		0			0	
+203	canal	NB	1	NA		0			0	
+304	canal	NB	1	NA		0			0	
+506	canal	NB	2	NA		1			1	
+607	canal	NB	2	NA		1			1	
+708	canal	NB	2	NA		1			1	
+9010	canal	NB	3	NA		1			1	
+1011	canal	NB	3	NA		1			1	
+1112	canal	NB	3	NA		1			1	
+1314	canal	NB	4	NA		1			1	
+1415	canal	NB	4	NA		1			1	
+1516	canal	NB	4	NA		1			1	
